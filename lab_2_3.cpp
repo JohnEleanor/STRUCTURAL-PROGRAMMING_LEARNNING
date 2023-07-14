@@ -28,7 +28,6 @@ int main() {
     cout << "Enter vat (%) :";
     cin >> __vat;
     __total =(__vat / 100) * __price;
-    // cout << __total;
 
     cout << "\nNet Price of product = " << __total + __price;
     return 0;
