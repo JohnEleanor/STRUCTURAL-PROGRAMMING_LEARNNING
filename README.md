@@ -1,3 +1,3 @@
-# ITI_LAB_PROGRAMSTRUCTURAL
- [🧠]: This is my Learn Program <br />
+# ITI_LAB_STRUCTURALPROGRAM
+ [🧠]: This is my Learn Structural Programing <br />
  [🧠]: form KMUTNB
