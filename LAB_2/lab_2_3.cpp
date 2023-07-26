@@ -1,9 +1,6 @@
-#include <iostream>
-using namespace std;
-int main() {
-  
 /*
-    ?find a Price of productv
+    ?🧠 Std_name: Chotiros 
+    ?🧠 Std_id: C6606021420148
 
 
     /$$$$$
@@ -16,10 +13,16 @@ int main() {
  \______/ 
           
           
-    🧠 Thx 
+
 
 
 */ 
+
+#include <iostream>
+using namespace std;
+int main() {
+  
+
     float __price;
     float __vat;
     float __total; 

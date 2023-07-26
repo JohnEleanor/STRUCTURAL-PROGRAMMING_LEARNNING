@@ -1,9 +1,6 @@
-#include <iostream>
-using namespace std;
-int main() {
-  
 /*
-?find a Area Circle 
+    ?🧠 Std_name: Chotiros 
+    ?🧠 Std_id: C6606021420148
 
 
     /$$$$$
@@ -16,10 +13,14 @@ int main() {
  \______/ 
           
           
-    🧠 Thx 
+
 
 
 */ 
+#include <iostream>
+using namespace std;
+int main() {
+  
     double __raduis;
     double __total;
 
