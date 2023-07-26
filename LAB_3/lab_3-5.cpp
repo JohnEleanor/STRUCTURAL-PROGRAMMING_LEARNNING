@@ -33,10 +33,10 @@ int main() {
     int digit3 = (number / 10) % 10; 
     int digit4 = number % 10; 
 
-    int a = digit1 * base *digit1 * base *digit1 * base;
-    int b = digit2 * base *digit2 * base;
-    int c = digit3 * base;
-    int d = digit4 * base *  0;
+    int a = digit1 * 2 *digit1 * 2 *digit1 * 2;
+    int b = digit2 * 2 *digit2 * 2;
+    int c = digit3 * 2;
+    int d = digit4 * 2 *  0;
 
     cout << "RESULT: " << a+b+c+d;
 

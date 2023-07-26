@@ -22,4 +22,8 @@ using namespace std;
 
 int main() {
 
+    int x = (7 + 3)*(6 / 2) - 1;
+    float y = 2 % 2 + 2 * 2 - 2;
+    cout << x << "\n";
+    cout << y << "\n";
 }
