@@ -23,18 +23,18 @@ using namespace std;
 
 //  LAB-3
 int main() {
-    int number;
+    int _num;
     
-    cout << number;
+    cout << _num;
 
     cout << "INPUT: ";
-    cin >> number;
+    cin >> _num;
 
 
-    int digit1 = number / 1000; // หลักพัน
-    int digit2 = (number / 100) % 10; // หลักร้อย
-    int digit3 = (number / 10) % 10; // หลักสิบ
-    int digit4 = number % 10; // หลักหน่วย
+    int _1 = _num / 1000; 
+    int _2 = (_num / 100) % 10; 
+    int _3 = (_num / 10) % 10; 
+    int _4 = _num % 10; 
 
-    cout << "RES: " << digit1 << " " << digit2 << " " << digit3 << " " << digit4 << endl;
+    cout << "RES: " << _1 << " " << _2 << " " << _3 << " " << _4 << endl;
 }
