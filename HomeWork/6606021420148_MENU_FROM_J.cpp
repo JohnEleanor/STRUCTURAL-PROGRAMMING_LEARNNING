@@ -6,6 +6,7 @@ int main()
 {
     int doAgain = false;
     int _passed = true;
+    int _passed_1 = true;
     int _passed_2 = true;
     int __total_price = 0;
     int _mySelect = 1;
@@ -29,15 +30,15 @@ int main()
         switch (_mySelect)
         {
         case 0:
+        
             cout << "\n==========================";
             cout << "\nTHANK YOU BYE ;)";
-            // cout << "\nYOUR TOTAL PRICE : " << __total_price;
-            // cout << "\nYOUR TOTAL JAN : " << jan;
             cout << "\n==========================";
             doAgain = false;
             break;
 
         case 1:
+        
             __total_price = __total_price + 45;
             jan++;
             do
@@ -107,6 +108,7 @@ int main()
         break;
 
         case 2:
+        
             __total_price = __total_price + 40;
             jan++;
             do
@@ -177,6 +179,7 @@ int main()
             break;
 
         case 3:
+        
             __total_price = __total_price + 55;
             jan++;
             do
@@ -244,6 +247,7 @@ int main()
             } while (_passed_2);
             break;
         case 4:
+        
             __total_price = __total_price + 55;
             jan++;
             do
@@ -312,6 +316,7 @@ int main()
             break;
 
         case 5:
+        
             __total_price = __total_price + 45;
             jan++;
             do
@@ -380,6 +385,7 @@ int main()
             break;
 
         case 6:
+        
             __total_price = __total_price + 45;
             jan++;
             do
@@ -449,10 +455,11 @@ int main()
             break;
 
         default:
+            doAgain = true;
             cout << "\n==========================";
             cout << "\n[DEBUG]: ERROR-> Your Select menu has Not Found\n";
             cout << "\n==========================";
-            doAgain = false;
+            
         }
 
     } while (doAgain);
@@ -465,7 +472,6 @@ int main()
         cout << "\nYOUR TOTAL PRICE : " << __total_price;
         cout << "\nYOUR TOTAL JAN : " << jan;
         cout << "\n==========================";
-        doAgain = false;
     }
 
     return 0;
