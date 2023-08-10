@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 int main()
 {
     int doAgain = false;
@@ -31,9 +30,9 @@ int main()
         {
         case 0:
             cout << "\n==========================";
-            cout << "\nTHANK YOU FOR PURCHASE ;)";
-            cout << "\nYOUR TOTAL PRICE : " << __total_price;
-            cout << "\nYOUR TOTAL JAN : " << jan;
+            cout << "\nTHANK YOU BYE ;)";
+            // cout << "\nYOUR TOTAL PRICE : " << __total_price;
+            // cout << "\nYOUR TOTAL JAN : " << jan;
             cout << "\n==========================";
             doAgain = false;
             break;
@@ -105,7 +104,7 @@ int main()
                 }
             } while (_passed_2);
 
-            break;
+        break;
 
         case 2:
             __total_price = __total_price + 40;
@@ -149,7 +148,7 @@ int main()
             do
             {
                 cout << "===================================\n";
-                cout << "DO YOWANT TO BUY AGAIN\n";
+                cout << "DO YOU ANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
                 cout << "[2] EXIT PROGRAM\n";
                 cout << "===================================\n";
@@ -160,11 +159,13 @@ int main()
                 {
                     doAgain = true;
                     _passed_2 = false;
+                    
                 }
                 else if (_want_egg == 2)
                 {
                     doAgain = false;
                     _passed_2 = false;
+                    
                 }
                 else
                 {
@@ -455,7 +456,17 @@ int main()
         }
 
     } while (doAgain);
-  
+
+    
+    if (__total_price != 0)
+    {
+        cout << "\n==========================";
+        cout << "\nTHANK YOU FOR PURCHASE ;(";
+        cout << "\nYOUR TOTAL PRICE : " << __total_price;
+        cout << "\nYOUR TOTAL JAN : " << jan;
+        cout << "\n==========================";
+        doAgain = false;
+    }
 
     return 0;
 }
