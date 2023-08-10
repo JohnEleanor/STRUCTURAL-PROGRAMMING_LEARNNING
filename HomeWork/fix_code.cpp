@@ -2,7 +2,7 @@
 using namespace std; 
 int main() { 
     cout << "Welcome to my world!" << endl; 
-    double pi = 3.14; 
+    long pi = 3.14; 
     cout << "Please enter 2 of your favorite integers: "; 
     short fav1, fav2; 
     cin >> fav1, fav2; 
