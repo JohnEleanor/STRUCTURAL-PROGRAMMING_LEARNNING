@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <conio.h>
 using namespace std;
 
 int main()
@@ -15,6 +15,7 @@ int main()
 
     do
     {
+        system("cls"); //! มั่ว ให้มันสวย
         cout << "===================================\n";
         cout << "[1] KAI MOO SUB = 45 BATH\n";
         cout << "[2] PAD KA PAO MOO SUB = 40 BATH\n";
@@ -30,7 +31,7 @@ int main()
         switch (_mySelect)
         {
         case 0:
-        
+            system("cls"); //! มั่ว ให้มันสวย
             cout << "\n==========================";
             cout << "\nTHANK YOU BYE ;)";
             cout << "\n==========================";
@@ -43,6 +44,7 @@ int main()
             jan++;
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "[1] WANT KAI DOW 5 BATH\n";
                 cout << "[2] WANT KAI JEAW 10 BATH\n";
@@ -69,6 +71,7 @@ int main()
                 }
                 else
                 {
+                    system("cls"); //! มั่ว ให้มันสวย
                     _passed = true;
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
@@ -79,6 +82,7 @@ int main()
 
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "DO YOWANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
@@ -113,6 +117,7 @@ int main()
             jan++;
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "[1] WANT KAI DOW 5 BATH\n";
                 cout << "[2] WANT KAI JEAW 10 BATH\n";
@@ -149,6 +154,7 @@ int main()
 
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "DO YOU ANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
@@ -184,6 +190,7 @@ int main()
             jan++;
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "[1] WANT KAI DOW 5 BATH\n";
                 cout << "[2] WANT KAI JEAW 10 BATH\n";
@@ -220,6 +227,7 @@ int main()
 
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "DO YOWANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
@@ -252,6 +260,7 @@ int main()
             jan++;
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "[1] WANT KAI DOW 5 BATH\n";
                 cout << "[2] WANT KAI JEAW 10 BATH\n";
@@ -288,6 +297,7 @@ int main()
 
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "DO YOWANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
@@ -321,6 +331,7 @@ int main()
             jan++;
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "[1] WANT KAI DOW 5 BATH\n";
                 cout << "[2] WANT KAI JEAW 10 BATH\n";
@@ -357,6 +368,7 @@ int main()
 
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "DO YOWANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
@@ -377,6 +389,7 @@ int main()
                 }
                 else
                 {
+                    system("cls"); //! มั่ว ให้มันสวย
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
                     cout << "===================================\n";
@@ -390,6 +403,7 @@ int main()
             jan++;
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "[1] WANT KAI DOW 5 BATH\n";
                 cout << "[2] WANT KAI JEAW 10 BATH\n";
@@ -416,6 +430,7 @@ int main()
                 }
                 else
                 {
+                    system("cls"); //! มั่ว ให้มันสวย
                     _passed = true;
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
@@ -426,6 +441,7 @@ int main()
 
             do
             {
+                system("cls"); //! มั่ว ให้มันสวย
                 cout << "===================================\n";
                 cout << "DO YOWANT TO BUY AGAIN\n";
                 cout << "[1] BUY AGAIN\n";
@@ -446,6 +462,7 @@ int main()
                 }
                 else
                 {
+                    system("cls"); //! มั่ว ให้มันสวย
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
                     cout << "===================================\n";
@@ -455,6 +472,7 @@ int main()
             break;
 
         default:
+            system("cls"); //! มั่ว ให้มันสวย
             doAgain = true;
             cout << "\n==========================";
             cout << "\n[DEBUG]: ERROR-> Your Select menu has Not Found\n";
@@ -468,7 +486,7 @@ int main()
     if (__total_price != 0)
     {
         cout << "\n==========================";
-        cout << "\nTHANK YOU FOR PURCHASE ;(";
+        cout << "\nTHANK YOU FOR PURCHASE ;)";
         cout << "\nYOUR TOTAL PRICE : " << __total_price;
         cout << "\nYOUR TOTAL JAN : " << jan;
         cout << "\n==========================";
