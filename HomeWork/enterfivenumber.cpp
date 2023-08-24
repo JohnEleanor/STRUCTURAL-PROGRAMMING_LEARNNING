@@ -2,34 +2,33 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 
-    int __number[5];
+    int n[5];
 
-    int i; 
+    int i;
 
-    for ( i = 0; i < 5; i++)
+    for (i = 0; i < 5; i++)
     {
         cout << "PLASE ENTER YOUR FIVE NUMBER : ";
-        cin >> __number[i];
+        cin >> n[i];
     }
 
-    int counter;
-    cout  << "===========" << endl;
-    for (counter = 0; counter < sizeof(__number) / sizeof(__number[0]); counter++)
+    int J;
+    cout << "===========" << endl;
+    for (J = 0; J < sizeof(n) / sizeof(n[0]); J++)
     {
 
-        int num_1;
-        cout << __number[counter]<< " : ";
-        for (num_1 = 0; num_1 < __number[counter]; num_1++)
+        int x;
+        cout << n[J] << " : ";
+        for (x = 0; x < n[J]; x++)
         {
-            cout  << '*';
+            cout << '*';
         }
         cout << endl;
     }
-    cout <<  "===========" ;
-
-    
+    cout << "===========";
 
     return 0;
 }
