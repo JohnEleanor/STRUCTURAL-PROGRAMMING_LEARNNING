@@ -10,7 +10,7 @@ int main() {
 
     for ( i = 0; i < 5; i++)
     {
-        cout << "plz enter for fivem number : ";
+        cout << "PLASE ENTER YOUR FIVE NUMBER : ";
         cin >> __number[i];
     }
 
