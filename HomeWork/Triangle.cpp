@@ -1,3 +1,22 @@
+/*
+    ?🧠 Std_name: Chotiros 
+    ?🧠 Std_id: C6606021420148
+
+
+    /$$$$$
+   |__  $$
+      | $$
+      | $$
+ /$$  | $$
+| $$  | $$
+|  $$$$$$/
+ \______/ 
+          
+          
+thx code from https://youtu.be/FgVs8YJDR_A
+
+
+*/ 
 #include <iostream>
 using namespace std;
 

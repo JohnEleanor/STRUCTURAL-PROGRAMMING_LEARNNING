@@ -1,3 +1,23 @@
+/*
+    ?🧠 Std_name: Chotiros 
+    ?🧠 Std_id: C6606021420148
+
+
+    /$$$$$
+   |__  $$
+      | $$
+      | $$
+ /$$  | $$
+| $$  | $$
+|  $$$$$$/
+ \______/ 
+          
+          
+
+
+
+*/ 
+
 #include <iostream>
 #include <conio.h>
 using namespace std;
