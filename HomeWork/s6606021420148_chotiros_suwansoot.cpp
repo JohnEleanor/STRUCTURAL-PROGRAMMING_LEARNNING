@@ -17,6 +17,8 @@
 
 
 */ 
+
+
 #include <iostream>
 
 using namespace std;
@@ -25,10 +27,11 @@ int main()
 {
 
     int n[5];
+    int __this_is_my_count_for_wat = 5;
 
     int i;
 
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < __this_is_my_count_for_wat; i++)
     {
         cout << "PLASE ENTER YOUR FIVE NUMBER : ";
         cin >> n[i];
@@ -36,7 +39,9 @@ int main()
 
     int J;
     cout << "===========" << endl;
-    for (J = 0; J < sizeof(n) / sizeof(n[0]); J++)
+
+
+    for (J = 0; J < __this_is_my_count_for_wat; J++)
     {
 
         int x;
