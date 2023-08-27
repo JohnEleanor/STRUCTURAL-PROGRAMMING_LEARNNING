@@ -1,36 +1,41 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
+    int __num = 0;
+    int __passed = true;
 
-    int _number[5];
-    //! เปลี่ยนจากการรับเเบบนี้
-    // cin >> _number[0] >> _number[1] >> _number[2] >> _number[3] >> _number[4];
-    int counter = 5;
-    //! เป็นเเบบนี้
-    int i;
-
-    for (i = 0; i < counter; i++)
+    do 
     {
-        cout << "ENTER FIVE NUMBER : ";
-        cin >> _number[i];
-    }
-    int x;
-    for (x = 0; x < counter; x++)
-    {
-        cout << "==========";
-        cout << _number[x] << " : ";
+    system("cls");
+    cout << "PLZ ENTER YOUR NUMBER : ";
+    cin >> __num;
 
-        for (int t = 0; t < _number[x]; t++)
+    if (__num >= 2 and __num <= 100)
+    {
+        __passed = false;
+
+        int counter;
+
+        for (counter = 0; counter < 4; counter++)
+
         {
-            cout << "*";
+            cout << "======= " << __num << " =======" << endl;
+
+            for (int i = 1 ; i <= 12; i++)
+            {
+                cout << __num << " x " << i << " = " << ( __num*i ) << endl;
+            }
+
+            __num = __num + 2 ;
+
+
         }
 
-        cout << "==========";
-        cout << "\n";
+
     }
 
+    }while (__passed);
+    
     return 0;
 }

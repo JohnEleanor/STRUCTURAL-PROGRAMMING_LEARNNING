@@ -26,7 +26,7 @@ int main()
 {
     int doAgain = false;
     int _passed = true;
-    int _passed_1 = true;
+
     int _passed_2 = true;
     int __total_price = 0;
     int _mySelect = 1;
@@ -52,9 +52,9 @@ int main()
         {
         case 0:
             system("cls"); //! มั่ว ให้มันสวย
-            cout << "\n==========================";
+            
             cout << "\nTHANK YOU BYE ;)";
-            cout << "\n==========================";
+            
             doAgain = false;
             break;
 
@@ -409,7 +409,7 @@ int main()
                 }
                 else
                 {
-                    system("cls"); //! มั่ว ให้มันสวย
+                
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
                     cout << "===================================\n";
@@ -450,7 +450,7 @@ int main()
                 }
                 else
                 {
-                    system("cls"); //! มั่ว ให้มันสวย
+                    
                     _passed = true;
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
@@ -482,7 +482,7 @@ int main()
                 }
                 else
                 {
-                    system("cls"); //! มั่ว ให้มันสวย
+                    
                     cout << "===================================\n";
                     cout << "[DEBUG]: ERROR-> YOUR CHOICE HAS NOT FOUND ;(\n";
                     cout << "===================================\n";
