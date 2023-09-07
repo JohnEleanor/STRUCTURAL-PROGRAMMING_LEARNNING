@@ -61,6 +61,8 @@
     "random": "cpp",
     "limits": "cpp",
     "*.tcc": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "string": "cpp",
+    "cmath": "cpp"
   }
 }

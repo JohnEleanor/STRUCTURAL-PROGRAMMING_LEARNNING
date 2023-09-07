@@ -1,4 +1,22 @@
+/*
+    ?🧠 Std_name: Chotiros 
+    ?🧠 Std_id: C6606021420148
 
+
+    /$$$$$
+   |__  $$
+      | $$
+      | $$
+ /$$  | $$
+| $$  | $$
+|  $$$$$$/
+ \______/ 
+          
+          
+
+
+
+*/ 
 #include <iostream>
 #include <string>
 using namespace std;
@@ -16,7 +34,7 @@ int main()
     while (i <= 20)
     {
         cout << "[" << i << "]"
-             << "input score : ";
+             << "PLZ INPUT YOUR SCORE : ";
         cin >> score[i];
         i++;
     }
