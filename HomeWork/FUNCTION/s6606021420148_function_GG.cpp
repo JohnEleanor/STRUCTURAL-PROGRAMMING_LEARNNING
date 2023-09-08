@@ -1,6 +1,6 @@
 /*
-    ?🧠 Std_name: Chotiros 
-    ?🧠 Std_id: C6606021420148
+    ?[🧠] Std_name: Chotiros Suwansoot
+    ?[🧠] Std_id: C6606021420148
 
 
     /$$$$$
@@ -16,7 +16,7 @@
 
 
 
-*/ 
+*/
 #include <iostream>
 #include <string>
 using namespace std;
@@ -31,7 +31,7 @@ int round_setting(int round = 20){
 }
 
 /**
-     @param _input_score_from_student this is the score from input RQ:FUNCTION inputscore()
+  @param _input_score_from_student this is the score from input RQ:FUNCTION inputscore()
 */
 string cal_grade(int _input_score_from_student)
 {
@@ -71,7 +71,7 @@ string cal_grade(int _input_score_from_student)
     }
 
     if (_grade == ""){
-        _grade = "[+] ERROR GRADE NOT FOUND => " + to_string(my_score);
+        _grade = "[+] ERROR GRADE NOT FOUND YOUR INPUT IS => " + to_string(my_score);
     }
 
 
@@ -79,6 +79,7 @@ string cal_grade(int _input_score_from_student)
 }
 
 /**
+ * This function use to loop for input
  @param _input_score this is the score from input RQ:input
 */
 
@@ -88,7 +89,7 @@ int input_score(int round_to_loop)
     int i = 1;
     while (i <= round_to_loop)
     {
-        cout << "[" << i << "]" << "PLZ INPUT YOUR SCORE : ";
+        cout << "[" << i << "]" << " PLASE INPUT YOUR SCORE : ";
         cin >> score[i];
         i++;
 
@@ -99,12 +100,14 @@ int input_score(int round_to_loop)
 }
 
 /**
- @param _grade this is the score from input RQ:input
+ *? this function use to concate and return concate to show 
+ @param _grade this is the score from input
+ @param student_id this is a student id 
 */
 string show_score_for_student(string _grade, int student_id)
 {
-
-    string std_id = to_string(student_id);
+    int _THIS_IS_CONVERT_4_REAL_1 = student_id + 1;
+    string std_id = to_string(_THIS_IS_CONVERT_4_REAL_1);
     string text_ssss = "[" +  std_id + "] This is : " + _grade  ;
     return text_ssss;
 }
