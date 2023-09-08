@@ -31,6 +31,7 @@ int round_setting(int round = 20){
 }
 
 /**
+ * This function use to calculate grade and return grade 
   @param _input_score_from_student this is the score from input RQ:FUNCTION inputscore()
 */
 string cal_grade(int _input_score_from_student)
@@ -39,48 +40,48 @@ string cal_grade(int _input_score_from_student)
     string _grade;
 
     if (my_score >= 80 && my_score <= 100) {
-        _grade = "A";
+        return _grade = "A";
     }
 
     if (my_score >= 75 && my_score <= 79) {
-        _grade = "B+";
+        return _grade = "B+";
     }
 
     if (my_score >= 70 && my_score <= 74) {
-        _grade = "B";
+        return _grade = "B";
     }
 
     if (my_score >= 65 && my_score <= 69) {
-        _grade = "C+";
+        return _grade = "C+";
     }
 
     if (my_score >= 60 && my_score <= 64) {
-        _grade = "C";
+       return _grade = "C";
     }
 
     if (my_score >= 55 && my_score <= 59) {
-        _grade = "D+";
+        return _grade = "D+";
     }
 
     if (my_score >= 50 && my_score <= 54) {
-        _grade = "D";
+       return  _grade = "D";
     }
 
     if (my_score <= 49) {
-        _grade = "F";
+        return _grade = "F";
     }
 
     if (_grade == ""){
-        _grade = "[+] ERROR GRADE NOT FOUND YOUR INPUT IS => " + to_string(my_score);
+        _grade = "[!] ERROR GRADE NOT FOUND YOUR INPUT IS => " + to_string(my_score);
     }
 
-
     return _grade;
+    
 }
 
 /**
- * This function use to loop for input
- @param _input_score this is the score from input RQ:input
+ * This function use to loop for input 1 - 20
+ @param round_to_loop THIS PARAM IS ROUND TO LOOP CAN SETTING IN round_setting() function()
 */
 
 int input_score(int round_to_loop)
