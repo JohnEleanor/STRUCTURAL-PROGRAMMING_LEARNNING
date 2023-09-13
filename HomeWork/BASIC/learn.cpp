@@ -1,48 +1,52 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  int num1;
+int main()
+{
+  int num1 = 0;
 
+  int counter_1000 = 0;
+  int counter_500 = 0;
   int counter_100 = 0;
-  int counter_50 = 0;
-  int counter_10 = 0;
 
   cout << "Enter the first number: ";
   cin >> num1;
+cout << "THIS IS INPUT : " << num1 << endl;
+  int i = 0;
+  for ( i = 0; i < num1; i++)
+  {
 
-    int i;
-    for ( i = 0; i < num1; i++)
+    if (num1 >= 1000)
     {
-      
 
-        if (num1 >= 100)
-        {
-            num1 = num1 - 100;
-            counter_100++;
-
-        }else if (num1 == 50 or num1 => 50)
-        {
-            num1 = num1 - 50;
-            counter_50++;
-
-        }else if(num1 == 10){
-
-            num1 = num1 - 10;
-            counter_10++;
-
-        }
-
+      num1 = num1 - 1000;
+      counter_1000++;
+      // cout << num1 << " - 1000 = " << num1<< endl;
+    }
+    else if (num1 >= 500)
+    {
+      num1 = num1 - 500;
+      counter_500++;
+      // cout << num1 << " - 500 = " << num1<< endl;
+    }
+    else if (num1 >= 100)
+    {
+      num1 = num1 - 100;
+      counter_100++;
+      // cout << num1 << " - 100 = " << num1<< endl;
+    }
+    else{
+      cout << "THIS IS ELSE " << endl;
     }
 
-  
-  
+  }
+    
+
 
   cout << counter_100 << endl;
-  cout << counter_50 << endl;
-  cout << counter_10 << endl;
+  cout << counter_500 << endl;
+  cout << counter_100 << endl;
 
-  
   cout << "The total number is: " << num1 << endl;
 
   return 0;
