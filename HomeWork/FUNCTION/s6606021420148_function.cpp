@@ -88,13 +88,13 @@ string cal_grade(int _input_score_from_student)
     }
 
     if (_grade == ""){
+
         if (DEBUG_CHOTIROS_CODE == true){
             _grade = "[!] ERROR GRADE NOT FOUND YOUR INPUT IS => " + to_string(my_score);
         }else {
             _grade = "ERROR";
         }
 
-        
     }
 
     return _grade;
@@ -160,8 +160,8 @@ string show_score_for_student(string _grade, int student_id)
 {
     int _THIS_IS_CONVERT_4_REAL_1 = student_id + 1;
     string std_id = to_string(_THIS_IS_CONVERT_4_REAL_1);
-    string text_ssss = "[" +  std_id + "] This is : " + _grade  ;
-    return text_ssss;
+    string concate_string_nakub_good_bye_this_homework = "[" +  std_id + "] This is : " + _grade  ;
+    return concate_string_nakub_good_bye_this_homework;
 }
 
 
