@@ -159,6 +159,7 @@ int input_score(int round_to_loop, string CheckScope_Score = "n")
 string show_score_for_student(string _grade, int student_id)
 {
     int _THIS_IS_CONVERT_4_REAL_1 = student_id + 1;
+
     string std_id = to_string(_THIS_IS_CONVERT_4_REAL_1);
     string concate_string_nakub_good_bye_this_homework = "[" +  std_id + "] This is : " + _grade  ;
     return concate_string_nakub_good_bye_this_homework;
@@ -183,7 +184,7 @@ int main()
     cout << "========== THIS IS YOUR GRADE ==========" << endl;
     for (int i = 0; i < round_setting(); i++)
     {
-        cout << show_score_for_student(cal_grade(score[i]),i) << endl;
+        cout << show_score_for_student(cal_grade(score[i]), i) << endl;
     }
     
 
