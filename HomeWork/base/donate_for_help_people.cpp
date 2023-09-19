@@ -32,6 +32,7 @@ int main() {
 
     //? หาค่าที่น้อยที่สุด
     int maxBags = 0;
+    
     if (water_div < bread_div and water_div  < egg_div)
     {
         maxBags = water_div;
