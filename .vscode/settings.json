@@ -64,6 +64,7 @@
     "string_view": "cpp",
     "string": "cpp",
     "cmath": "cpp",
-    "array": "cpp"
+    "array": "cpp",
+    "iomanip": "cpp"
   }
 }
