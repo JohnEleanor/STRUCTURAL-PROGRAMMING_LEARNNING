@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 using namespace std;
-bool plush_function();
+int plush_function();
 bool minus_function();
 bool multiple_function();
 bool divide_function();
@@ -39,7 +39,7 @@ int main(int argc, const char **argv)
         if (_menu_select == 1)
         {
 
-            bool plush = plush_function();
+            int plush = plush_function();
 
             if (plush)
             {
@@ -303,7 +303,7 @@ int main(int argc, const char **argv)
     return 0;
 }
 
-bool plush_function()
+int plush_function()
 {
 
     int P[2];
