@@ -19,10 +19,11 @@
 
 using namespace std;
 
+/*
+    @param something คือ String ที่ส่งมาเพื่อเเปลงเป็น int
+*/
 int convertStringtoInt(string something){
-    // int n = stoi(something);
     return (stoi(something));
-
 }
 
 
@@ -37,33 +38,29 @@ int main(int argc, char const *argv[])
     cin >> input_date;
 
  
+    /*
+        ? [🧠] เเปลงจาก String เป็น Int โดยใช้ Function convertStringtoInt()
 
+    */ 
     day =  convertStringtoInt(input_date.substr(0,2));
     month = convertStringtoInt(input_date.substr(3,2));
     year =  convertStringtoInt(input_date.substr(6,4));
 
 
-    // cout << "-----------\n";
-
+    /*
+        ? หาเดือนที่ตรงกับ  month เป็น String
+    */ 
     string month12[12]= {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
     for (int i = 0; i < 12; i++)
 
     {
-
-        // cout << month12[month-1] << endl;
-
         cout << "Format: 1 (Month/day/Yeay) : " << month12[month-1] << " " << day << " " << year << endl;
-
         cout << "Format: 2 (Day/Month/Yeay) : " << day << " " << month12[month-1] << " " << year << endl ;
-
         break;
-
- 
 
     }   
 
-   
 
     return 0;
 
