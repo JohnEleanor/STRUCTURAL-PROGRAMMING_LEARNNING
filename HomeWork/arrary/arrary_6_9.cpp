@@ -62,23 +62,23 @@ void Sort(int temp[], const int Max)
 
 void Swap(int &n1, int &n2)
 {
-    cout << "======== Swap() ========" << endl;
-    cout << "======== Before ========" << endl;
-    cout << "Address Of &n1 : " << &n1 << endl;
-    cout << "Data Of n1 : " << n1 << endl;
-    cout << "Address Of &n2 : " << &n2 << endl;
-    cout << "Data Of n2 : " << n2 ;
+    // cout << "======== Swap() ========" << endl;
+    // cout << "======== Before ========" << endl;
+    // cout << "Address Of &n1 : " << &n1 << endl;
+    // cout << "Data Of n1 : " << n1 << endl;
+    // cout << "Address Of &n2 : " << &n2 << endl;
+    // cout << "Data Of n2 : " << n2 ;
 
     int temp = 10;
     temp = n1;
     n1 = n2;
     n2 = temp;
 
-    cout << endl << "======== Affter ========" << endl;
-    cout << "Address Of &n1 : " << &n1 << endl;
-    cout << "Data Of n1 : " << n1 << endl;
-    cout << "Address Of &n2 : " << &n2 << endl;
-    cout << "Data Of n2 : " << n2 << endl;
+    // cout << endl << "======== Affter ========" << endl;
+    // cout << "Address Of &n1 : " << &n1 << endl;
+    // cout << "Data Of n1 : " << n1 << endl;
+    // cout << "Address Of &n2 : " << &n2 << endl;
+    // cout << "Data Of n2 : " << n2 << endl;
 
     cout << "========================" << endl;
 
