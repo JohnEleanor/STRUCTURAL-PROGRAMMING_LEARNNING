@@ -67,5 +67,6 @@
     "array": "cpp",
     "iomanip": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
