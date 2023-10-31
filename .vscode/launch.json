@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Cxllmegenius/Desktop/ITI_LAB_PROGRAMSTRUCTURAL/LAB_7_POINTTER",
-      "program": "c:/Users/Cxllmegenius/Desktop/ITI_LAB_PROGRAMSTRUCTURAL/LAB_7_POINTTER/build/Debug/outDebug",
+      "cwd": "c:/Users/Cxllmegenius/Desktop/ITI_LAB_PROGRAMSTRUCTURAL/FINAL",
+      "program": "c:/Users/Cxllmegenius/Desktop/ITI_LAB_PROGRAMSTRUCTURAL/FINAL/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
