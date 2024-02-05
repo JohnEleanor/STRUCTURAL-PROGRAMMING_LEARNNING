@@ -14,31 +14,34 @@ public:
             hashVal += key[i]; 
         }
 
+        // cout << "Hash Value J :  " << hashVal % TableSize << endl; // Debugging
         
         return hashVal % TableSize;
     }
+
+
+    void printHashTable(const string a[], int TableSize)
+{
+    for (int i = 0; i < TableSize; i++)
+    {
+        cout << "HashTable a[" << i << "]  : " << a[i] << "\n";
+    }
+}
 };
 
-int main(int argc, const char **argv)
+int main()
 {
-    int Result = 0;
+    int Result;
     int TableSize = 7;
     string key = "CHOTIROS SUWANSOOT";
+    string a[7];
 
-    
     HashingForLearning ThisIsMyObjectNaja;
 
     Result = ThisIsMyObjectNaja.hash(key, TableSize);
+    a[Result] = key;
 
-    for (int i = 0; i <= 7; i++)
-    {
-        if ( (key.length() % TableSize) == i ){
+    ThisIsMyObjectNaja.printHashTable(a, TableSize);
 
-            cout << "HashTable [" << i << "]: " << key << endl;
-        }else {
-            cout << "HashTable [" << i << "]: " << endl;
-        }
-        
-    }
     return 0;
 }
